@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.pmkyl.retropcgreentheme.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.pmkyl.retropcgreentheme.MyBundle
 
 class MyApplicationService {
 

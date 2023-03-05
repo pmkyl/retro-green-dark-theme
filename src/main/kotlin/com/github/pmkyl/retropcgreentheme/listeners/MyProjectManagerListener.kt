@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.pmkyl.retropcgreentheme.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.pmkyl.retropcgreentheme.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
