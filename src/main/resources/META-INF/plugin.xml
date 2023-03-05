@@ -1,18 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.pmkyl.retropcgreentheme</id>
-    <name>IntelliJ Platform Plugin retro-pc-green-theme</name>
+    <name>Retro-Pc-Green-Theme</name>
     <vendor>pmkyl</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.pmkyl.retropcgreentheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.pmkyl.retropcgreentheme.services.MyProjectService"/>
+        <themeProvider id="com.github.pmkyl.retropcgreentheme" path="/theme/retro-pc-green-theme.theme.json" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.pmkyl.retropcgreentheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+
 </idea-plugin>

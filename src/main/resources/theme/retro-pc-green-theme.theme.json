@@ -1,0 +1,52 @@
+{
+  "author": "RB",
+  "dark": true,
+  "name": "retro-pc-green",
+  "fixed": false,
+  "editorScheme": "theme/retropcgreen.xml",
+  "additionalEditorSchemes": [
+
+  ],
+  "colors": {
+
+  },
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "foreground": "#377703"
+    },
+    "VersionControl" :{
+      "Log.Commit.currentBranchBackground": "#2e1e38",
+      "Log.Commit.unmatchedForeground": "#8f7fa8",
+      "GitLog.localBranchIconColor": "#65a05c",
+      "GitLog.tagIconColor": "#bcc4ce",
+      "Log.Commit.hoveredBackground": "#512663",
+      "Log.Commit.rowHeight": 30,
+      "Log.Commit.selectionBackground": "#402a4b",
+      "Log.Commit.selectionInactiveBackground": "#402a4b",
+      "RefLabel.backgroundBase": "#04d9ffff",
+      "RefLabel.backgroundBrightness": 0.99
+    },
+    "icons": {
+      "ColorPalette": {
+        "Checkbox.Background.Default.Dark": "#442557",
+        "Checkbox.Border.Default.Dark": "#532d68",
+        "Checkbox.Foreground.Selected.Dark": "#6aae41",
+        "Checkbox.Background.Default": "#532e6a",
+        "Checkbox.Background.Disabled": "#321d3d",
+        "Checkbox.Background.Disabled.Dark": "#321d3d",
+        "Objects.Grey": "#a098a0",
+        "Objects.Blue": "#55a9c2",
+        "Objects.RedStatus": "#a74d4dff",
+        "Objects.Red": "#774199ff",
+        "Objects.Pink": "#d16979ff",
+        "Objects.Yellow": "#be9418ff",
+        "Objects.Green": "#009c0eff",
+        "Objects.Purple": "#6b48a6ff",
+        "Objects.BlackText": "#131313ff",
+        "Objects.YellowDark": "#8a6c1aff",
+        "Objects.GreenAndroid": "#008b14ff"
+      }
+    }
+  }
+}
