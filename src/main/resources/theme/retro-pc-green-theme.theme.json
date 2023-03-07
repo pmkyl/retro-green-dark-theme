@@ -11,13 +11,15 @@
 
   },
   "ui": {
+
+
     "*": {
-      "background": "#1E1E1E",
+      "background": "#252526",
       "foreground" : "#8da689"
 
     },
     "VersionControl" :{
-      "Log.Commit.currentBranchBackground": "#1E1E1E",
+      "Log.Commit.currentBranchBackground": "#252526",
       "Log.Commit.unmatchedForeground": "#8f7fa8",
       "GitLog.localBranchIconColor": "#65a05c",
       "GitLog.tagIconColor": "#bcc4ce",
@@ -32,12 +34,19 @@
       "foreground": "#8da689",
       "modifiedItemForeground": "#8DA689",
       "hoverBackground": "#3a3939",
-      "hoverInactiveBackground": "#1E1E1E",
+      "hoverInactiveBackground": "#252526",
       "selectionBackground": "#343434",
       "selectionForeground": "#a3fa96",
-      "selectionInactiveBackground": "#1E1E1E"
-    },
-
-
+      "selectionInactiveBackground": "#252526"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Tree.iconColor": "#8da689",
+      "Actions.Grey": "#8da689",
+      "Actions.GreyInline":"#8da689",
+      "Objects.Grey": "#8da689",
+      "Objects.Blue": "#67a65f",
+    }
   }
 }
