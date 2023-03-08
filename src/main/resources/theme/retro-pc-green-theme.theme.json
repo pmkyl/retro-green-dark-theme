@@ -11,13 +11,12 @@
 
   },
   "ui": {
-
-
     "*": {
-      "background": "#252526",
+      "background": "#2B2B2B",
       "foreground" : "#8da689"
-
     },
+
+
     "VersionControl" :{
       "Log.Commit.currentBranchBackground": "#252526",
       "Log.Commit.unmatchedForeground": "#8f7fa8",
@@ -48,5 +47,12 @@
       "Objects.Grey": "#8da689",
       "Objects.Blue": "#67a65f"
     }
-  }
+  },
+  "ActionButton.hoverBackground": "#8da689",
+  "ActionButton.pressedBackground": "#252526",
+  "Menu.selectionBackground":  "#252526",
+  "MenuBar.selectionBackground": "#252526",
+  "MenuItem.selectionBackground": "#252526"
+
+
 }
