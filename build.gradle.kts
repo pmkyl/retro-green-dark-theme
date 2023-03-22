@@ -61,6 +61,10 @@ kover.xmlReport {
 }
 
 tasks {
+    buildSearchableOptions {
+        enabled = false
+    }
+
     wrapper {
         gradleVersion = properties("gradleVersion")
     }
