@@ -14,7 +14,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.pmkyl.retropcgreentheme" path="/theme/retro-green-dark.theme.json" />
+        <themeProvider id="com.github.pmkyl.retropcgreentheme" path="/retro-green-dark/retro-green-dark.theme.json" />
+        <themeProvider id="com.github.pmkyl.retropcgreentheme.bright" path="/retro-green-dark-bright/retro-green-dark-bright.theme.json" />
     </extensions>
 
 

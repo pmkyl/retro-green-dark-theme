@@ -1,0 +1,90 @@
+{
+  "author": "RB",
+  "dark": true,
+  "name": "retro-pc-green",
+  "fixed": false,
+  "editorScheme": "/retro-green-dark-bright/retro-green-dark.xml",
+
+  "colors": {
+    "bg": "#232323",
+    "fg" : "#3bb000",
+    "bg2": "#3a3939",
+    "bg_selected" : "#4f4949",
+    "fg_selected" : "#9cd394",
+    "link": "#83a598"
+  },
+
+  "ui": {
+    "*": {
+      "background": "bg",
+      "foreground" : "fg",
+      "lightSelectionBackground": "bg",
+      "selectionBackground": "bg_selected",
+      "selectionForeground": "fg_selected",
+      "selectionBackgroundInactive": "bg",
+      "selectionInactiveBackground": "bg",
+      "selectedBackground": "bg_selected",
+      "selectedForeground": "fg_selected",
+      "selectedInactiveBackground": "bg",
+      "selectedBackgroundInactive": "bg"
+
+    },
+    "VersionControl" :{
+      "Log.Commit.currentBranchBackground": "#252526",
+      "Log.Commit.unmatchedForeground": "#8f7fa8",
+      "GitLog.localBranchIconColor": "#65a05c",
+      "GitLog.tagIconColor": "#bcc4ce",
+      "Log.Commit.hoveredBackground": "#282828",
+      "Log.Commit.rowHeight": 30,
+      "Log.Commit.selectionBackground": "#444343",
+      "Log.Commit.selectionInactiveBackground": "#313131",
+      "RefLabel.backgroundBase": "#003100ff",
+      "RefLabel.backgroundBrightness": 0.99
+    },
+    "Tree" : {
+      "foreground": "fg",
+      "modifiedItemForeground": "#94cc91",
+      "hoverBackground": "#3a3939",
+      "hoverInactiveBackground": "#252526",
+      "selectionBackground": "#343434",
+      "selectionForeground": "#a3fa96",
+      "selectionInactiveBackground": "#252526"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "bg2"
+    },
+    "Button": {
+      "startBackground": "bg",
+      "endBackground": "bg",
+      "startBorderColor": "bg2",
+      "endBorderColor": "bg2",
+
+      "default": {
+        "foreground": "fg",
+        "startBackground": "#32302F",
+        "endBackground": "#32302F",
+        "startBorderColor": "#4F4945",
+        "endBorderColor": "#4F4945",
+        "focusedBorderColor": "bg"
+      }
+    },
+    "Link": {
+      "activeForeground": "link",
+      "hoverForeground": "link",
+      "pressedForeground": "link",
+      "visitedForeground": "link"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Tree.iconColor": "fg",
+      "Actions.Grey": "fg",
+      "Actions.GreyInline":"fg",
+      "Objects.Grey": "fg",
+      "Objects.Blue": "fg"
+    }
+  }
+
+}

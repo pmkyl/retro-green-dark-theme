@@ -3,7 +3,7 @@
   "dark": true,
   "name": "retro-pc-green",
   "fixed": false,
-  "editorScheme": "/theme/retro-green-dark.xml",
+  "editorScheme": "/retro-green-dark/retro-green-dark.xml",
 
   "colors": {
     "bg":"#2B2B2B",
