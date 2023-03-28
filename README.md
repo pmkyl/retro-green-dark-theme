@@ -15,19 +15,12 @@ Currently, theme is in experimental, "work in progress" stage.
 
  - Java
 
-## Pipeline
+## RoadMap
 
- - Settle down on a particular green color palette that is easy to read and have retro look and feel
+ - Enhance color Scheme
  - Several variations of theme with various degrees of darkness
  - Support for more languages
 
-
 ## Installation
 
-Install from the [JetBrains marketplace](https://plugins.jetbrains.com/search?tags=Theme)
-
-
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
-
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
+Install from the [JetBrains marketplace](https://plugins.jetbrains.com/plugin/21291-retro-pc-green-theme)
