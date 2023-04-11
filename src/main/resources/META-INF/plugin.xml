@@ -6,16 +6,39 @@
 
     <description>
         <![CDATA[
-         <p><b>Simple color dark color scheme consisting of dark-grey and variations of green color</b></p>
-         <p>Please report any issues at <a href="https://github.com/qdbp/SalmonTheme/issues"><p>
+            <p>A dark green UI theme for IntelliJ IDE provides a stylish and visually soothing environment for coding.
+            The theme's deep green color scheme can help reduce eye strain and improve contrast, making it easier to
+            read code for long periods of time.</p>
+
+            <p>Green is a particularly important color for human eye perception because it falls in the middle of the
+            visible light spectrum, meaning our eyes can easily detect it. Additionally, green is associated with nature
+            and balance, which can have a calming effect on our minds and help improve focus during coding sessions.</p>
+
+            <p>In the design of the theme, there is an intentional attempt to strike a balance between retro-looking
+            greens reminiscent of old computers and modern UI elements that highlight important parts of the
+            code and IDE. This balance is achieved through the use of carefully chosen shades of green, which give a
+            nod to the past while also providing a modern and functional look and feel while staying simple
+            and minimalistic.</p>
+
+            <p><b>Currently, theme is in experimental, "work in progress" stage.</b><p>
         ]]>
     </description>
 
     <depends>com.intellij.modules.platform</depends>
 
+    <idea-version since-build="213.0" until-build="231.*"/>
+
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.pmkyl.retropcgreentheme" path="/theme/retro-green-dark.theme.json" />
     </extensions>
 
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>Version 1.0.2<ul>
+                <li>Support for IDEA platform 231.*</li>
+            </ul></li>
+        </ul>
+    ]]></change-notes>
 
 </idea-plugin>

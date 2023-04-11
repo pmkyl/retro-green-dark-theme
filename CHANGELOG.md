@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [1.0.2]
+- Support for IDEA 231.*
+
 ## [1.0.1]
 - Unified some menu colors
 - Added better readme
