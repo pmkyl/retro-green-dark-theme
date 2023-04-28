@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [1.0.3]
+- Support for new IDEA builds
+
 ## [1.0.2]
 - Support for IDEA 231.*
 
@@ -11,6 +14,7 @@
 - Unified some menu colors
 - Added better readme
 
-[Unreleased]: https://github.com/pmkyl/retro-pc-green-theme/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/pmkyl/retro-pc-green-theme/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/pmkyl/retro-pc-green-theme/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/pmkyl/retro-pc-green-theme/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/pmkyl/retro-pc-green-theme/commits/v1.0.1

@@ -26,7 +26,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <idea-version since-build="213.0" until-build="231.*"/>
+    <idea-version since-build="213.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.pmkyl.retropcgreentheme" path="/theme/retro-green-dark.theme.json" />
@@ -34,6 +34,11 @@
 
 
     <change-notes><![CDATA[
+        <ul>
+            <li>Version 1.0.3<ul>
+                <li>Support for new IDEA builds</li>
+            </ul></li>
+        </ul>
         <ul>
             <li>Version 1.0.2<ul>
                 <li>Support for IDEA platform 231.*</li>
